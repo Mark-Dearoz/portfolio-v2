@@ -1,4 +1,5 @@
 import Link from '../Components/Link'
+import copy from 'copy-to-clipboard'
 import { motion } from 'framer-motion'
 import style from '../Styles/Introduction.module.css'
 
@@ -6,7 +7,12 @@ const opacityVariant = {
 	hidden: { opacity: 0 },
 	visible: { opacity: 1, transition: { delay: 0.2, duration: 0.5, ease: 'easeIn' } },
 }
-const Introduction = () => {
+
+const Introduction = (props) => {
+	const clickHandler = () => {
+		copy('mark@markdearoz.com')
+		props.alert()
+	}
 	return (
 		<div className={style.container}>
 			<motion.h1
@@ -34,7 +40,7 @@ const Introduction = () => {
 				Building Beautiful, Accessible & Responsive Websites
 			</motion.h3>
 			<div className={style.links}>
-				<Link className={style.link} color="#000000" index={1}>
+				<Link className={style.link} color="#000000" index={1} onClick={clickHandler}>
 					email
 				</Link>
 				<Link className={style.link} color="#000000" index={2}>

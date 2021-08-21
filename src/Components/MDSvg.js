@@ -3,8 +3,6 @@ import { motion } from 'framer-motion'
 const MDSvg = (props) => {
 	return (
 		<motion.svg
-			width="129"
-			height="75"
 			viewBox="0 0 129 75"
 			className={props.className}
 			fill="none"

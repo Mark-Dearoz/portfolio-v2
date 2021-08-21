@@ -9,19 +9,19 @@ const svgVariant = {
 		pathLength: 1,
 		opacity: 1,
 		transition: {
-			pathLength: { delay: 0.2, duration: 1, ease: 'linear' },
+			pathLength: { delay: 0.2, duration: 0.9, ease: 'linear' },
 			opacity: { delay: 0.2, duration: 0 },
 		},
 	},
 	exit: {
 		opacity: 0,
-		transition: { duration: 0.5, ease: 'easeIn' },
+		transition: { delay: 0.3, duration: 0.2, ease: 'easeIn' },
 	},
 }
 
 const Loading = () => {
 	const [loading, setLoading] = useState(true)
-	useEffect(() => setTimeout(() => setLoading(false), 1500))
+	useEffect(() => setTimeout(() => setLoading(false), 1000))
 	return (
 		<AnimatePresence>
 			{loading && (

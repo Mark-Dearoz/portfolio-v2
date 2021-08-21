@@ -1,10 +1,11 @@
 import Link from '../Components/Link'
+import copy from 'copy-to-clipboard'
 import style from '../Styles/Contact.module.css'
 
-const Contact = () => {
+const Contact = (props) => {
 	const copyText = () => {
-		navigator.clipboard.writeText('mark@markdearoz.com')
-		alert('copied to clipboard!')
+		copy('mark@markdearoz.com')
+		props.alert()
 	}
 	return (
 		<div className={style.background}>

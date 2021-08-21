@@ -50,8 +50,9 @@ const Link = (props) => {
 	useEffect(() => {
 		textAnimation.start('enter')
 	})
+
 	return (
-		<a href={props.href} className={style.anchor}>
+		<a href={props.href} className={style.anchor} onClick={props.onClick}>
 			<motion.div
 				className={`${style.container} ${props.className}`}
 				onMouseEnter={hover}

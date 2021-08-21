@@ -6,8 +6,9 @@
 
 .svg {
 	position: absolute;
-	top: 45%;
+	top: 40%;
 	left: 50%;
+	width: 200px;
 	transform: translateX(-50%);
 }
 
@@ -17,13 +18,4 @@
 	background-color: #000000;
 	top: 45%;
 	transform: translate(-54.5px, 64.5px);
-}
-
-.rightLine {
-	position: absolute;
-	height: 10px;
-	background-color: #000000;
-	top: 45%;
-	left: 50%;
-	transform: translate(40px, 64.5px);
 }
