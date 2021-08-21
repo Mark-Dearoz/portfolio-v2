@@ -1,0 +1,16 @@
+.shadow {
+	position: relative;
+	width: 100%;
+	margin-top: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background-color: rgba(0, 0, 0, 1);
+	filter: blur(14px);
+}
+
+@media screen and (max-width: 600px) {
+	.shadow {
+		height: 10px;
+		margin-top: 10px;
+	}
+}

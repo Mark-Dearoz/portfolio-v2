@@ -1,0 +1,36 @@
+.header {
+	text-align: center;
+	margin: 192px 0px 256px 0px;
+	font-size: 109.66px;
+	line-height: 109.66px;
+	font-weight: 600;
+}
+
+@media screen and (max-width: 1200px) {
+	.header {
+		text-align: center;
+		margin: 128px 0px;
+		font-size: 109.66px;
+		line-height: 109.66px;
+		font-weight: 600;
+	}
+}
+@media screen and (max-width: 1000px) {
+	.header {
+		text-align: center;
+		margin: 128px 0px;
+		font-size: 63.54px;
+		line-height: 63.54px;
+		font-weight: 600;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.header {
+		text-align: center;
+		margin: 80px 16px;
+		font-size: 59.3px;
+		line-height: 59.3px;
+		font-weight: 600;
+	}
+}

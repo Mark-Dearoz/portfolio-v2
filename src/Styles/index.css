@@ -1,0 +1,13 @@
+*,
+*::before,
+*::after {
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+	word-spacing: -0.05em;
+	letter-spacing: -0.036em;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
