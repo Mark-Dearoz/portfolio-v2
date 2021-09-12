@@ -99,6 +99,7 @@ const Project = (props) => {
 							variants={textVariant}
 							custom={{ i: 3 }}
 							animation={textAnimation}
+							href={props.href}
 						>
 							EXPLORE
 						</Link>

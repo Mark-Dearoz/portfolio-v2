@@ -19,6 +19,7 @@ const Projects = () => {
 				src={ftracker}
 				color="#C30B0B"
 				backgroundColor="#00000"
+				href="https://everything-fitness-tracker.netlify.app"
 			>
 				This website allows users to track their daily workout, and it is also a social media outlet
 				for discovering new workout routine and sharing your personal achievement with like minded
