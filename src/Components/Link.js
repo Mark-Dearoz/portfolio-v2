@@ -52,7 +52,7 @@ const Link = (props) => {
 	})
 
 	return (
-		<a href={props.href} className={style.anchor} onClick={props.onClick}>
+		<a href={props.href} className={style.anchor} onClick={props.onClick} download={props.download}>
 			<motion.div
 				className={`${style.container} ${props.className}`}
 				onMouseEnter={hover}
@@ -86,6 +86,7 @@ const Link = (props) => {
 Link.defaultProps = {
 	index: 0,
 	instant: false,
+	download: false,
 }
 
 export default Link

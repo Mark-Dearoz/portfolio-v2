@@ -2,6 +2,7 @@ import Link from '../Components/Link'
 import copy from 'copy-to-clipboard'
 import { motion } from 'framer-motion'
 import style from '../Styles/Introduction.module.css'
+import resume from '../img/Mark_Dearoz_Resume.pdf'
 
 const opacityVariant = {
 	hidden: { opacity: 0 },
@@ -43,7 +44,7 @@ const Introduction = (props) => {
 				<Link className={style.link} color="#000000" index={1} onClick={clickHandler}>
 					email
 				</Link>
-				<Link className={style.link} color="#000000" index={2}>
+				<Link className={style.link} color="#000000" index={2} href={resume} download={true}>
 					resume
 				</Link>
 				<Link

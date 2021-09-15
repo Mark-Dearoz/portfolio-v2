@@ -1,3 +1,6 @@
+.container {
+	width: fit-content;
+}
 .shadow {
 	position: relative;
 	width: 100%;

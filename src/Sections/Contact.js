@@ -1,6 +1,7 @@
 import Link from '../Components/Link'
 import copy from 'copy-to-clipboard'
 import style from '../Styles/Contact.module.css'
+import resume from '../img/Mark_Dearoz_Resume.pdf'
 
 const Contact = (props) => {
 	const copyText = () => {
@@ -19,7 +20,7 @@ const Contact = (props) => {
 						mark@markdearoz.com
 					</h2>
 					<div className={style.linksContainer}>
-						<Link className={style.link} color="#ffffff">
+						<Link className={style.link} color="#ffffff" href={resume} download={true}>
 							resume
 						</Link>
 						<Link

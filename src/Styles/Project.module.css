@@ -93,9 +93,9 @@
 
 	.descriptionContainer {
 		display: flex;
-		width: 55%;
+		width: 60%;
 		flex-direction: column;
-		align-self: flex-end;
+		align-self: flex-start;
 		padding-left: 0;
 	}
 	.title {

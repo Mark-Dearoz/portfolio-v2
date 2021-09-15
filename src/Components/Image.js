@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 import style from '../Styles/Image.module.css'
 const Image = (props) => {
 	return (
-		<div>
+		<div className={style.container}>
 			<motion.img
 				className={props.className}
 				src={props.src}
