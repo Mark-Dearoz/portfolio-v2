@@ -14,8 +14,8 @@ const About = () => {
 				NY. He recently received his Master’s degree in Computer Science and has a Bachelor’s degree
 				in Electrical and Computer Engineer. His passion is to create innovative and functional
 				applications without a compromise on design and aesthetic. Mark has knowledge on the
-				bleeding edge technologies of front-end development He also loves to learn all about the
-				emerging technologies in tech, and improve his skills as a software engineer.
+				bleeding edge technologies of front-end development. He also loves to learn all about the
+				emerging technologies in tech and improve his skills as a software engineer.
 			</motion.p>
 		</div>
 	)
