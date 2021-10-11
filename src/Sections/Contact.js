@@ -2,7 +2,7 @@ import Link from '../Components/Link'
 import Alert from '../Components/Alert'
 import copy from 'copy-to-clipboard'
 import style from '../Styles/Contact.module.css'
-import resume from '../img/Mark_Dearoz_Resume.pdf'
+import resume from '../img/Resume.pdf'
 import { useState } from 'react'
 import { AnimatePresence } from 'framer-motion'
 

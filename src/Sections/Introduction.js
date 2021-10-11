@@ -3,7 +3,7 @@ import Alert from '../Components/Alert'
 import copy from 'copy-to-clipboard'
 import { AnimatePresence, motion } from 'framer-motion'
 import style from '../Styles/Introduction.module.css'
-import resume from '../img/Mark_Dearoz_Resume.pdf'
+import resume from '../img/Resume.pdf'
 import { useState } from 'react'
 
 const opacityVariant = {
